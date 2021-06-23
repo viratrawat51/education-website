@@ -83,18 +83,20 @@
   font-family: "Cabin Sketch", cursive;
 }
 .secondHalf img {
-  width: 70%;
+  width: 71%;
   border: 3px solid white;
   border-radius: 87px;
-  height: 112px;
+  height: 183px;
   display: block;
   margin: auto;
 }
 .text-big {
   font-size: 41px;
+  font-family: "Dancing Script", cursive;
 }
 .text-small {
   font-size: 18px;
+  font-family: "Dancing Script", cursive;
 }
 .btn {
   padding: 8px 20px;
@@ -108,28 +110,26 @@
   padding: 3px 10px;
   vertical-align: middle;
 }
-@media only screen and (max-width: 600px) {
-  .secondHalf img {
-    width: 289%;
-  }
-}
-.secRight {
-  height: 500px;
+.section {
+  height: 400px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 1133px;
+  justify-content: space-evenly;
+  max-width: 80%;
   margin: auto;
 }
-.sectionTag {
-  font-family: "Dancing Script", cursive;
-}
-.sectionSubTag {
-  font-family: "Dancing Script", cursive;
+.virat {
+  background-color: rgba(8, 8, 8, 0.1);
 }
 .paras {
-  padding: 0px 65px;
+  padding: 0 25px;
 }
-.secleft {
+
+.left {
   flex-direction: row-reverse;
+}
+.image .imgFluid {
+  border-radius: 50%;
+  width: 256px;
+  height: 236px;
 }
