@@ -101,7 +101,8 @@ html {
   margin: 0px 25px;
 }
 .secondHalf img {
-  width: 71%;
+  margin-bottom: 31px;
+  width: 183px;
   border: 3px solid white;
   border-radius: 87px;
   height: 183px;
@@ -172,6 +173,7 @@ html {
   font-family: "Benne", serif;
 }
 .form input {
+  padding: 9px 0 0 9px;
   margin: 14px 0;
   width: 100%;
   font-size: 19px;

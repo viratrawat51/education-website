@@ -29,8 +29,19 @@
   .nav-list li a {
     color: #fff;
   }
+  .secondHalf {
+    width: 100%;
+  }
   .secondHalf img {
     width: 175px;
+    margin-bottom: 31px;
+  }
+  .image .imgFluid {
+    margin-bottom: 31px;
+    margin-top: 33px;
+  }
+  .buttons {
+    text-align: center;
   }
   .section {
     flex-direction: column-reverse;
